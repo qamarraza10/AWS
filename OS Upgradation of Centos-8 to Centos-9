@@ -24,4 +24,5 @@ device name required: /dev/sdb;  >snapshot: select the related snapshot disk vol
 size: give the size accordinly to the size of volume in production: e.g 100GB, > delete on termination: yes, becuase its a test instance so when we terminate the instance it will automatically delete the related volumes, and will save from resource utilization.
 encrypted: leave as it is if their is no requiremnt for the encryption.
 
+Access the server/instance by emulator:
 Access the instance by SSH and Telnet client and terminal emulator e.g secure CRT(for ssh access) and secure FX for loading script file in server.
