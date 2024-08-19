@@ -1,1 +1,10 @@
+**Testing**
+First we have to do the testing if there will be any issuses when we will gprade the OS version, so if there are any issues we can test and resolve in our test enviromnet before launching the upgrade in Production environemt. 
+Create a recent snapshot of the instance with all the volumes(EC2 Dashboard>EBS>Snapshots>Create Snapsot>Choose Instance>Instance ID>Create Button).
 
+After the snapshot is created successfully: 
+Select the snapshot>actions>copy snapshot>in description give a little details or instance name>destination region (choose region where we want to copy instance e.g london=eu-west-2)>click copy snapshot button.
+Open the region from the top ribbon where you copy the instance and go to >EC2> Snapshots> select the root volume of the snapshot> click actions> create image from snapshot> go to images>AMIs and here you will see AMI image of snapshot.
+
+Select the root AMI and launch it as an instance:
+EC2 Dashboard> Images>AMIs> select AMI image>Launch Instance from AMI>
