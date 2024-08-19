@@ -7,4 +7,15 @@ Select the snapshot>actions>copy snapshot>in description give a little details o
 Open the region from the top ribbon where you copy the instance and go to >EC2> Snapshots> select the root volume of the snapshot> click actions> create image from snapshot> go to images>AMIs and here you will see AMI image of snapshot.
 
 Select the root AMI and launch it as an instance:
-EC2 Dashboard> Images>AMIs> select AMI image>Launch Instance from AMI>
+EC2 Dashboard> Images>AMIs> select AMI image>Launch Instance from AMI.
+
+Launch Instance from AMI of new region:
+
+Name: Give the name for server> Instance type (choose according to the requirement e.t t3.medium)
+Key pair: if already have a keypair, if not then create a new key pair(Name: name you want, type: RSA, File format: .pem).
+Network settings: edit>vpc required(default)>subnet (choose different e.g eu-west-2b)
+Security group: choose ssh only if already created, if not created already then create security group:
+e.g if we need security group only with ssh rule then: 
+Security group name: ssh only, description: date of creation or any info you want add, inbound security group rules: type (ssh, protocol tcp, port rane:22)
+
+
