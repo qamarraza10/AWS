@@ -28,3 +28,4 @@ Accessing the server/instance by emulator:
 Access the instance by SSH and Telnet client and terminal emulator e.g secure CRT(for ssh access) and secure FX for loading script file in server.
 open securce crt>click on file>click on quick connect:
 Protocol: ssh2, Hostname: Public IP of server/instance, Username: root.
+
