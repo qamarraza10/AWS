@@ -1,4 +1,4 @@
-**Testing**
+***Testing***
 First we have to do the testing if there will be any issuses when we will gprade the OS version, so if there are any issues we can test and resolve in our test enviromnet before launching the upgrade in Production environemt. 
 Create a recent snapshot of the instance with all the volumes(EC2 Dashboard>EBS>Snapshots>Create Snapsot>Choose Instance>Instance ID>Create Button).
 
