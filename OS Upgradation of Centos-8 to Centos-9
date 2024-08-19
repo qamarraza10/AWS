@@ -10,7 +10,7 @@ Select the root AMI and launch it as an instance:
 EC2 Dashboard> Images>AMIs> select AMI image>Launch Instance from AMI.
 
 Launch Instance from AMI of new region:
-Name: Give the name for server> Instance type (choose according to the requirement e.t t3.medium)
+Name: Give the name for server> Instance type (choose according to the requirement e.t t3.medium),, can also add additional tags (check the box for Instances, Volumes and Network inteface)
 Key pair: if already have a keypair, if not then create a new key pair(Name: name you want, type: RSA, File format: .pem).
 Network settings: edit>vpc required(default)>subnet (choose different e.g eu-west-2b)
 Security group: choose ssh only if already created, if not created already then create security group:
