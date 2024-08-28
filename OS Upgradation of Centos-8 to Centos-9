@@ -18,7 +18,7 @@ e.g if we need security group only with ssh rule then:
 Security group name: ssh only, description: date of creation or any info you want add, inbound security group rules: type (ssh, protocol tcp, port rane:22)
 
 Configure Storage: 
-choose the size of the root storge volume accoding to the voilume size of your root volume size of the instance in production.
+choose the size of the root storge volume accoding to the volume size of your root volume of the instance in production.
 click on advancead>add new volume:
 device name required: /dev/sdb;  >snapshot: select the related snapshot disk volume of as like the instance have volume in the production environemt. note: if we have multiple volumes need to attach all of these. 
 size: give the size accordinly to the size of volume in production: e.g 100GB, > delete on termination: yes, becuase its a test instance so when we terminate the instance it will automatically delete the related volumes, and will save from resource utilization.
