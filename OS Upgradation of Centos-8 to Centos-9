@@ -6,7 +6,7 @@ After the snapshot is created successfully:
 Select the snapshot>actions>copy snapshot>in description give a little details or instance name>destination region (choose region where we want to copy instance e.g london=eu-west-2)>click copy snapshot button.
 Open the region from the top ribbon where you copy the instance and go to >EC2> Snapshots> select the root volume of the snapshot> click actions> create image from snapshot> go to images>AMIs and here you will see AMI image of snapshot.
 
-Select the root AMI and launch it as an instance:
+Select the root AMI and launch it as an instance and attach related volumes:
 EC2 Dashboard> Images>AMIs> select AMI image>Launch Instance from AMI.
 
 Launch Instance from AMI of new region:
