@@ -1,0 +1,22 @@
+## media-content.app
+### Sep 2024
+Request from Brian-(**media-content.app domain**).
+
+**New Added**: 
+* A | mysql8-bfcdn | 15.161.31.19 | Proxied | Auto  **(04-09-2024)**
+* A | mysql8-bfcrm-news | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-bf-news | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+
+----------------
+## finalpay.app
+### Sep 2024
+Request from Brian-(**finalpay.app domain**).
+
+**New Added**: 
+* A | mysql8-blog | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-cdntf | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-finalcrm | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-finaldata | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-finalfinance | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-finalpartners | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
+* A | mysql8-finaltool | 15.161.31.19 | Proxied | Auto **(04-09-2024)**
