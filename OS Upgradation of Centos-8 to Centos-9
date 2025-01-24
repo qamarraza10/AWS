@@ -29,3 +29,11 @@ Access the instance by SSH and Telnet client and terminal emulator e.g secure CR
 open securce crt>click on file>click on quick connect:
 Protocol: ssh2, Hostname: Public IP of server/instance, Username: root.
 
+
+
+"Or if we have setup the AWS Backup for company, we can resotre the instance from AWS Backup "
+
+
+-- Search and open AWS Backup > go to vaults > vaults name > select server and click copy > choose region where you want to copy and select default IAM Rule.
+-- and click on copy, you can check status in the jobs button, after copy go to the other region where you copy it e.g London.
+ 
